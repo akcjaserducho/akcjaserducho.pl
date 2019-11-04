@@ -1,10 +1,9 @@
 import React from "react";
-import Layout from '../components/Layout';
 import { Link } from "gatsby";
 
-const index = () => (
-  <Layout>
-      <main className="homepage page">
+const index = () => {
+  return(
+    <main className="homepage page">
 
         <section className="hero">
           <div className="hero__main">
@@ -57,7 +56,7 @@ const index = () => (
         </section>
 
       </main>
-  </Layout>
-)
+  )
+}
 
 export default index
