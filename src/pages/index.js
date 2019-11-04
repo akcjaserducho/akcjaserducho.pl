@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import Layout from '../components/Layout';
 
 const index = () => {
-  return(
+  return (
     <Layout>
     <main className="homepage page">
 
