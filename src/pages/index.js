@@ -1,8 +1,10 @@
 import React from "react";
 import { Link } from "gatsby";
+import Layout from '../components/Layout';
 
 const index = () => {
   return(
+    <Layout>
     <main className="homepage page">
 
         <section className="hero">
@@ -56,6 +58,7 @@ const index = () => {
         </section>
 
       </main>
+      </Layout>
   )
 }
 
