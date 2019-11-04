@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 
-const SupportPage = () => {
+const support = () => {
     return (
         <Layout>
             <div>wesprzyj nas!</div>
@@ -9,4 +9,4 @@ const SupportPage = () => {
     )
 }
 
-export default SupportPage
+export default support

@@ -1,10 +1,12 @@
-import React from "react";
-import Layout from "../components/Layout";
+import React from "react"
+import Layout from "../components/Layout"
 
-const NotFoundPage = () => (
-  <Layout>
-   <div>Nie ma takiej strony</div>
-  </Layout>
+const page404 = () => {
+  return (
+    <Layout>
+        <div>Nie ma takiej strony</div>
+    </Layout>
 )
+}
 
-export default NotFoundPage
+export default page404

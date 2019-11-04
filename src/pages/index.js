@@ -2,7 +2,7 @@ import React from "react";
 import Layout from '../components/Layout';
 import { Link } from "gatsby";
 
-const IndexPage = () => (
+const index = () => (
   <Layout>
       <main className="homepage page">
 
@@ -60,4 +60,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default index
