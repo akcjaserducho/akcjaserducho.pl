@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import {Link} from 'gatsby';
 
 const support = () => {
     return (
@@ -21,7 +22,7 @@ const support = () => {
                     <section className="support__option support__option-second">
                         <h2 className="support-option__title option-second__title">Dołącz do wolontariatu</h2>
                         <p className="support-option__text option-second__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque facilis ipsum dolorum tempora reprehenderit ea iusto deleniti quas modi aliquid.</p>
-                        <a href="/zespol" className="btn option-second__btn">Dołącz do nas</a>
+                        <Link to="/zespol" className="btn option-second__btn">Dołącz do nas</Link>
                     </section>
 
                     <section className="support__option support__option-third">
