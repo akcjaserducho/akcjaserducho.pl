@@ -7,18 +7,18 @@ const index = () => {
     <Layout>
     <main className="homepage page">
 
-        <section className="hero">
+        <header className="hero">
           <div className="hero__main">
-            <h2 className="hero__title section__title">Fundacja Akcja Serducho</h2>
-            <p className="hero__text section__text">Osoby z wielkimi sercami podejmują sie pracy z młodzieżą i ich rodzinami, którzy w swoim życiu doświadczyli wielu trudności.</p>
+            <h1 className="hero__title header__title">Fundacja Akcja Serducho</h1>
+            <p className="hero__text header__text">Osoby z wielkimi sercami podejmują sie pracy z młodzieżą i ich rodzinami, którzy w swoim życiu doświadczyli wielu trudności.</p>
             <Link to="/wesprzyj-nas" className="btn">Zobacz, jak możesz pomóc</Link>
           </div>
-          <div className="hero__subsection">
-            <p className="hero__text section__text">
+          <div className="hero__subheader">
+            <p className="subheader__text header__text">
             Wierzymy, że ci, do których chcemy wyjść i o których pragniemy powalczyć mają w sobie ogromny potencjał, który jest jednak zasłonięty cierpieniem, wyuczoną bezradnością, poczuciem beznadziejności czy brakiem wiary w siebie.
             </p>
           </div>
-        </section>
+        </header>
 
         <section className="section">
           <h2 className="section__title">Komu i jak pomagamy?</h2>
